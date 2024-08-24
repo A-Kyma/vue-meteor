@@ -1,16 +1,16 @@
 Package.describe({
   name: 'akryum:vue-component',
-  version: '0.16.0',
-  summary: 'VueJS single-file components that hot-reloads',
-  git: 'https://github.com/Akryum/meteor-vue-component',
+  version: '1.0.1',
+  summary: 'VueJS single-file components that hot-reloads for Vue v3 & Meteor v3',
+  git: 'https://github.com/A-Kyma/vue-meteor/tree/master/packages/vue-component',
   documentation: 'README.md',
 })
 
 Package.registerBuildPlugin({
   name: 'vue-component',
   use: [
-    'ecmascript@0.12.7',
-    'caching-compiler@1.2.1',
+    'ecmascript@0.16.8',
+    'caching-compiler@2.0.0',
     'babel-compiler@7.3.4',
   ],
   sources: [
